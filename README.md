@@ -76,6 +76,8 @@ tsc -w
 
 ### 3. Run the Tailwind CSS watcher
 
+For development, use Tailwind CSS's watch mode:
+
 ```bash
 npm run tailwind
 ```
