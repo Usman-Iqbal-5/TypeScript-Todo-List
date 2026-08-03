@@ -5,6 +5,9 @@ node_modules/
 .env
 .env.*
 
+# Output tailwind CSS
+public/styles/output.css
+
 # OS files
 .DS_Store
 Thumbs.db
