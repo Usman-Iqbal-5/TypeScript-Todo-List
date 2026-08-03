@@ -84,7 +84,7 @@ npm run tailwind
 
 ### 4. Open the project
 
-For development, open the project using **Light server** by running:
+For development, open the project using **Lite server** by running:
 
 ```bash
 npm run start
