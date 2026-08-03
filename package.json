@@ -1,11 +1,11 @@
 {
-  "name": "dom_mini_project",
+  "name": "todolist",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "lite-server",
-    "tailwind":"npx @tailwindcss/cli -i ./styles/input.css -o ./styles/output.css --watch",
+    "tailwind": "npx @tailwindcss/cli -i ./styles/input.css -o ./styles/output.css --watch",
     "build": "tsc && npx @tailwindcss/cli -i ./styles/input.css -o ./styles/output.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.3.3",
-    "tailwindcss": "^4.3.3"
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2"
   }
 }
