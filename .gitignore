@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Compiled TypeScript
+dist/
+
+# Environment variables
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
