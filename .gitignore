@@ -4,6 +4,9 @@ node_modules/
 # Compiled TypeScript
 dist/
 
+# output Tailwind CSS
+styles/output.css
+
 # Environment variables
 .env
 .env.*
