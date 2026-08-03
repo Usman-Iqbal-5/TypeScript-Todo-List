@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server",
-    "tailwind": "npx @tailwindcss/cli -i ./styles/input.css -o ./styles/output.css --watch",
-    "build": "tsc && npx @tailwindcss/cli -i ./styles/input.css -o ./styles/output.css",
+    "start": "lite-server --baseDir=public",
+    "tailwind": "npx @tailwindcss/cli -i ./styles/input.css -o ./public/styles/output.css --watch",
+    "build": "tsc && npx @tailwindcss/cli -i ./styles/input.css -o ./public/styles/output.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
