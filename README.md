@@ -77,7 +77,7 @@ tsc -w
 ### 3. Run the Tailwind CSS watcher
 
 ```bash
-npx @tailwindcss/cli -i ./styles/input.css -o ./styles/output.css --watch
+npm run tailwind
 ```
 
 ### 4. Open the project
