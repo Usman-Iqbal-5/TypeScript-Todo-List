@@ -84,7 +84,11 @@ npm run tailwind
 
 ### 4. Open the project
 
-Open the project using a local development server such as **VS Code Live Server**.
+For development, open the project using **Light server** by running:
+
+```bash
+npm run start
+```
 
 ## 📁 Project Structure
 
