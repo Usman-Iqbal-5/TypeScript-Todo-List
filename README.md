@@ -19,10 +19,10 @@ https://type-script-todo-list-one.vercel.app/
 
 ## 🛠️ Technologies
 
-* 🔷 **TypeScript**
-* 🌐 **HTML**
-* 🎨 **Tailwind CSS**
-* 🖥️ **Web APIs**
+* 🔷 TypeScript
+* 🌐 HTML
+* 🎨 Tailwind CSS
+* 🖥️ Web APIs
 
   * DOM API
   * `localStorage`
