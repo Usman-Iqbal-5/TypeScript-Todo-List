@@ -2,6 +2,9 @@
 
 A Todo List web application built with **TypeScript** and vanilla DOM manipulation. Tasks can be added, completed, deleted, and cleared, with task data persisted using the browser's `localStorage`.
 
+## 🖥️ Live Demo
+https://type-script-todo-list-one.vercel.app/
+
 ## ✨ Features
 
 * ➕ Add new tasks
