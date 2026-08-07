@@ -60,6 +60,9 @@ function readTasks() {
 }
 function handleSubmit(event) {
     event.preventDefault();
+    if (!input.value) {
+        return;
+    }
     // create new task
     const newTask = {
         content: input.value,

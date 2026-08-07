@@ -91,6 +91,10 @@ function readTasks(): Task[] {
 function handleSubmit(event: SubmitEvent): void {
   event.preventDefault();
 
+  if (!input.value){
+    return
+  }
+
   // create new task
   const newTask: Task = {
     content: input.value,
