@@ -154,11 +154,11 @@ function createTaskElement(task: Task): void {
   deleteButton.append("Remove");
   deleteButton.classList.add(
     "py-2",
-    "bg-red-600",
+    "bg-indigo-600",
     "border-none",
-    "rounded-xl",
+    "rounded-lg",
     "text-white",
-    "hover:bg-red-700",
+    "hover:bg-indigo-700",
     "cursor-pointer",
     "ml-auto",
   );

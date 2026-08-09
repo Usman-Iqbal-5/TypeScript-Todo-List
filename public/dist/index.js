@@ -102,7 +102,7 @@ function createTaskElement(task) {
     contentParagrapgh.classList.add("px-2");
     // setting-up button
     deleteButton.append("Remove");
-    deleteButton.classList.add("py-2", "bg-red-600", "border-none", "rounded-xl", "text-white", "hover:bg-red-700", "cursor-pointer", "ml-auto");
+    deleteButton.classList.add("py-2", "bg-indigo-600", "border-none", "rounded-lg", "text-white", "hover:bg-indigo-700", "cursor-pointer", "ml-auto");
     // add event listener for check box
     checkBox.addEventListener("change", () => {
         if (checkBox.checked) {
