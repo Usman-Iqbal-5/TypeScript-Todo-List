@@ -91,8 +91,10 @@ function createTaskElement(task) {
     checkBox.type = "checkbox";
     checkBox.checked = task.completed;
     checkBox.checked
-        ? (contentParagrapgh.style.textDecoration = "line-through")
-        : (contentParagrapgh.style.textDecoration = "none");
+        ? (contentParagrapgh.style.textDecoration = "line-through") &&
+            (contentParagrapgh.style.color = "rgba(255, 255, 255, 0.5)")
+        : (contentParagrapgh.style.textDecoration = "none") &&
+            (contentParagrapgh.style.color = "rgb(255, 255, 255");
     checkBox.classList.add("w-5", "h-5", "accent-indigo-600", "cursor-pointer");
     // setting-up list element
     contentParagrapgh.classList.add("m-0");
@@ -104,10 +106,12 @@ function createTaskElement(task) {
     // add event listener for check box
     checkBox.addEventListener("change", () => {
         if (checkBox.checked) {
-            contentParagrapgh.style.textDecoration = "line-through";
+            (contentParagrapgh.style.textDecoration = "line-through") &&
+                (contentParagrapgh.style.color = "rgba(255, 255, 255, 0.5)");
         }
         else {
-            contentParagrapgh.style.textDecoration = "none";
+            (contentParagrapgh.style.textDecoration = "none") &&
+                (contentParagrapgh.style.color = "rgb(255, 255, 255");
         }
         task.completed = checkBox.checked;
         saveTasks();
