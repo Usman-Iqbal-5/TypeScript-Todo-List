@@ -69,11 +69,11 @@ function handleResetButton(): void {
     "w-full",
     "p-2",
     "mt-2",
-    "bg-red-600",
+    "bg-amber-500",
     "border-none",
     "rounded-lg",
     "text-white",
-    "hover:bg-red-700",
+    "hover:bg-orange-400",
     "cursor-pointer",
   );
 

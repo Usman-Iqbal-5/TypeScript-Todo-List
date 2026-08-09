@@ -48,7 +48,7 @@ function handleResetButton() {
     resetBtn.id = "reset";
     resetBtn.textContent = "Clear all tasks";
     resetBtn.addEventListener("click", handleReset);
-    resetBtn.classList.add("w-full", "p-2", "mt-2", "bg-red-600", "border-none", "rounded-lg", "text-white", "hover:bg-red-700", "cursor-pointer");
+    resetBtn.classList.add("w-full", "p-2", "mt-2", "bg-amber-500", "border-none", "rounded-lg", "text-white", "hover:bg-orange-400", "cursor-pointer");
     form.after(resetBtn);
 }
 function readTasks() {
