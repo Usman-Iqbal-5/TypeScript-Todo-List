@@ -23,7 +23,6 @@ https://type-script-todo-list-one.vercel.app/
 * 🌐 HTML
 * 🎨 Tailwind CSS
 * 🖥️ Web APIs
-
   * DOM API
   * `localStorage`
 
